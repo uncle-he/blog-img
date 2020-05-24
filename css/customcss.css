@@ -42,6 +42,17 @@ body {
     background: linear-gradient(90deg,rgba(247,149,51,.1) 0,rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1) 100%);
 }
 
+/*社交icon颜色*/
+.fa-envelope {
+  color: rgb(246, 178, 105);
+}
+.fa-qq {
+  color: #49b1f5;
+}
+.fa-record-vinyl {
+  color: #ff0000;
+}
+
 /*鼠标样式*/
 body,
 .highlight-tools .code-lang {
@@ -49,6 +60,7 @@ body,
 }
 a, a:hover, 
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap > time, 
+#pagination .page-number.current,
 #pagination .page-number, 
 #rightside > div > i, 
 #rightside > div > a, 
