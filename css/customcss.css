@@ -43,10 +43,28 @@ body {
 }
 
 /*鼠标样式*/
-body {
+body,
+.highlight-tools .code-lang {
   cursor: url('https://cdn.jsdelivr.net/gh/uncle-he/blog-resource/img/default.cur'), default!important;
 }
-a, a:hover {
+a, a:hover, 
+#recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap > time, 
+#pagination .page-number, 
+#rightside > div > i, 
+#rightside > div > a, 
+#rightside > div > div, 
+#article-container h1, 
+#article-container h2, 
+#article-container h3, 
+#article-container h4, 
+#article-container h5, 
+#article-container h6,
+.highlight-tools .code-expand,
+.highlight-tools .fa-clipboard,
+#toggle-sidebar,
+.v[data-class=v] .vicon,
+.v[data-class=v] .vcards .vcard .vhead .vnick,
+.v[data-class=v] .vcards .vcard .vh .vmeta .vat {
   cursor: url('https://cdn.jsdelivr.net/gh/uncle-he/blog-resource/img/pointer.cur'), pointer!important;
 }
 
