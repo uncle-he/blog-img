@@ -1,2 +1,2 @@
-# blog-img
-博客图床
+# blog-resource
+博客通过jsDelivrCdn引用的一些资源
