@@ -118,7 +118,8 @@ a, a:hover,
 #toggle-sidebar,
 .v[data-class=v] .vicon,
 .v[data-class=v] .vcards .vcard .vhead .vnick,
-.v[data-class=v] .vcards .vcard .vh .vmeta .vat {
+.v[data-class=v] .vcards .vcard .vh .vmeta .vat,
+.v[data-class=v] .vbtn {
   cursor: url('https://cdn.jsdelivr.net/gh/uncle-he/blog-resource/img/pointer.cur'), pointer!important;
 }
 
